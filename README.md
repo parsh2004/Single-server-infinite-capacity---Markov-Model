@@ -15,18 +15,13 @@ This is a queuing model in which the arrival is Marcovian and departure distribu
 ## Procedure :
 
 ![imAGE](2.png)
-
-
-
-## Experiment:
-
-
  
 ## Program
 ```
-DEVELOPED BY : M.Parshwanath
-REGISTER NO : 212221230073
-
+Developed by: Parshwanath M
+Register Number: 212221230073
+```
+```
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
 Robot_time=float(input("Enter the Additional time taken for the Robot (in secs) :  "))
@@ -52,10 +47,9 @@ else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("---------------------------------------------------------------")
 ```
+
 ## Output :
+![0#1](https://github.com/parsh2004/Single-server-infinite-capacity---Markov-Model/assets/95388047/791de100-318c-4b16-ac40-452a0d0f9e89)
 
-
-![01](https://github.com/parsh2004/Single-server-infinite-capacity---Markov-Model/assets/95388047/61730446-7257-4ac6-b52d-c234b80b1cec)
 ## Result :
 The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
-
